@@ -1,8 +1,16 @@
+import {BrowserRouter , Routes , Route} from 'react-router-dom'
+import Home from './pages/home/index.jsx'
+import AboutUs from './pages/AboutUs.jsx'
+
+
 function App() {
   return (
-    <>
-      <h1>Many Stages Jewelry</h1>
-    </>
+    <BrowserRouter> 
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
