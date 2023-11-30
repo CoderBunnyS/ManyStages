@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <div>About Many Stages Jewelry</div>
   )
 }
 
