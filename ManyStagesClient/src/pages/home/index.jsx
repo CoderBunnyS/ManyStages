@@ -3,7 +3,10 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Many Stages Jewelry Home Page</div>
+    <div>
+    <h1>Many Stages Jewelry Home Page</h1>
+    <p>Here is all the stuff we sell</p>
+    </div>
   )
 }
 
